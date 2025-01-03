@@ -57,7 +57,8 @@ function App() {
         return;
       }
       const newLobby: Lobby = {
-        id: Math.random().toString(36).substring(2, 8).toUpperCase(),
+        //id: Math.random().toString(36).substring(2, 8).toUpperCase(),
+        id: 'MIKASA',
         host: username,
         participants: [username],
         isVotingStarted: false,
