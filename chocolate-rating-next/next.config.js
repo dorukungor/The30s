@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   images: {
-    unoptimized: true,
+    unoptimized: false,
+    domains: ['lh3.googleusercontent.com'], // Google Auth için gerekli
   },
-  basePath: '/The30s'
 }
 
 module.exports = nextConfig 
